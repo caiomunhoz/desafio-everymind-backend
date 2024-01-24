@@ -19,9 +19,9 @@ public class TestConfig implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		Product p1 = new Product(null, 250.0, "Chuteira", "Calçado esportivo para futebol.");
-		Product p2 = new Product(null, 250.0, "Bola de futebol",
+		Product p2 = new Product(null, 199.9, "Bola de futebol",
 				"Bola para campo confeccionada em material durável e tecnológico");
-		Product p3 = new Product(null, 250.0, "Meião", "Composição: 85% poliéster, 15% algodão.");
+		Product p3 = new Product(null, 49.9, "Meião", "Composição: 85% poliéster, 15% algodão.");
 
 		productRepository.saveAll(Arrays.asList(p1, p2, p3));
 
